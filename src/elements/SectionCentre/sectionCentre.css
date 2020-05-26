@@ -1,0 +1,256 @@
+
+                                          /* Grid */
+
+.sectionCentreFotoBlock{
+  margin-top: 53px;
+  display: grid;
+  grid-template-columns: 36.7% 30% 30%;
+  grid-column-gap: 20px;
+}
+
+
+                                          /* Foto Block Title and Description */
+
+.sectionCentre-title__wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 145px;
+}
+.sectionCentre-title__image {
+  width: 74px;
+  height: 102px;
+  background-image: url('../../assets/img/Logo-Heart-03_1.png');
+  background-position: center;
+  background-size: cover;
+}
+.sectionCentre-title__text{
+  font-size: 52px;
+  font-weight: 700;
+  color: #2f1946;
+}
+.sectionCentre-title__content_wrap{
+  margin: auto;
+  width: 790px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+.sectionCentre-title__content_description{
+  text-align: center;
+  letter-spacing: 0.9;
+  font-size: 30px;
+  font-weight: 700;
+  color: #2f1946;
+}
+.sectionCentre-title__content_name-wrap{
+  width: 100%;
+  display: grid;
+  justify-content: end;
+}
+.sectionCentre-title__content_name{
+  width: 100%;
+  padding-top: 3px;
+  letter-spacing: 0.9;
+  font-size: 30px;
+  font-weight: 700;
+  color: #fe4a5d;
+}
+
+                                            /* Foto Block Left first column*/
+.sectionCentreFotoBlock{
+  width: 100%;
+}                                         
+.sectionCentreFotoBlock__left{
+  display: grid;
+  grid-template-columns: 150px 300px;
+  grid-column-gap: 20px;
+  opacity: 75%;
+}
+.sectionCentreFotoBlock__left_first-column{
+  margin-top: 85px;
+}
+.first-column__first-foto{
+  width: 150px;
+  height: 208px;
+  background-image: url('../../assets/img/Home page image 1.jpg');
+  background-position: center;
+  background-size: cover;
+}                                              
+.first-column__last-foto{
+  margin-top: 20px;
+  width: 150px;
+  height: 210px;
+  background-image: url('../../assets/img/Homepage image 2.jpg');
+  background-position: center;
+  background-size: cover;
+}  
+
+                                          /* Foto Block column two*/ 
+.second-column__first-foto{
+  margin-top: 18px;
+  width: 298px;
+  height: 192px;
+  background-image: url('../../assets/img/Homepage image 5.jpg');
+  background-position: center;
+  background-size: cover;
+}                                                                               
+.second-column__last-foto{
+  margin-top: 20px;
+  width: 298px;
+  height: 260px;
+  background-image: url('../../assets/img/Homepage image 12.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+                                                  /* Foto Block Right*/                                     
+.sectionCentreFotoBlock__center{
+  display: flex;
+  justify-content: center;
+  height: 562px;
+  background-color:  #e94b23;
+  background-image: linear-gradient(to Left, rgba(249, 179, 42, 0.9) 27%, rgba(226, 32, 40, 0) 100%);
+}
+.fotoBlock__center_wrapper{
+  margin-top: 10px;
+  width: 95%;
+  height: 96.5%;
+  background-color: white;
+}
+.fotoBlock__center_content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fotoBlock__center-title{
+  margin-top: 48px;
+  font-weight: 700;
+  font-size: 38px;
+  color: #2f1946;
+}
+.block-for-facebook{
+  margin-top: 4px;
+  width: 300px;
+  height: 41px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2f53a3;
+  border-radius: 2px;
+}
+.facebook-img{
+  width: 16px;
+  height: 16px;
+  background-image: url('../../assets/img/facebook.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.facebook-content{
+  padding-top: 1px;
+  padding-left: 3px;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.75;
+  text-transform: uppercase;
+}
+.fotoBlock__seporator{
+  margin-top: 11px;
+  margin-bottom: 2px;
+  color: #9a9a9a;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.65;
+  position: relative;
+}
+.fotoBlock__seporator::before{
+  content: '';
+  position: absolute;
+  width: 132px;
+  height: 2px;
+  background: #dcdcdc;
+  top: 5px;
+  left: 25px;
+}
+.fotoBlock__seporator::after{
+  content: '';
+  position: absolute;
+  width: 132px;
+  height: 2px;
+  background: #dcdcdc;
+  top: 5px;
+  right: 25px;
+}
+.fotoBlock__form{
+  width: 300px;
+}
+.inputs{
+  margin: 6px 0;
+  width: 296px;
+  height: 40px;
+  border: 2px solid #dcdcdc;
+  border-radius: 2px;
+  font-size: 16px;
+  color: #642f6b;
+  font-weight: 700;
+  text-indent: 11px;
+}
+.fotoBlock__button{
+  margin-top: 6px;
+  width: 300px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: #81398b;
+  color: white;
+  letter-spacing: 0.65;
+  border-radius: 2px;
+  border: none;
+}
+
+                                            /* Foto Block Right first column*/
+
+.sectionCentreFotoBlock__right{
+  display: grid;
+  grid-template-columns: 212px 150px;
+  grid-column-gap: 20px;
+  opacity: 75%;
+}
+.block-right-first-column__first-foto{
+  margin-top: 37px;
+  width: 212px;
+  height: 260px;
+  background-image: url('../../assets/img/Homepage image 13.jpg');
+  background-position: center;
+  background-size: cover;
+}                                              
+.block-right-first-column__last-foto{
+  margin-top: 20px;
+  width: 212px;
+  height: 184px;
+  background-image: url('../../assets/img/Home page photo.jpg');
+  background-position: center;
+  background-size: cover;
+}  
+
+                                          /* Foto Block column two*/ 
+.block-right-second-column__first-foto{
+  width: 150px;
+  height: 184px;
+  background-image: url('../../assets/img/Homepage image 8.jpg');
+  background-position: center;
+  background-size: cover;
+}                                                                               
+.block-right-second-column__last-foto{
+  margin-top: 20px;
+  width: 150px;
+  height: 257px;
+  background-image: url('../../assets/img/Slice 1.png');
+  background-position: center;
+  background-size: cover;
+}
