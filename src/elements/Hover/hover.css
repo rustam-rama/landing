@@ -1,0 +1,24 @@
+.hover:hover{
+  color: #ff6c00;
+  opacity: 80%;
+}
+.footer__butoon:hover{
+
+  opacity: 80%;
+}
+.big-picture__button:hover{
+
+  opacity: 80%;
+}
+.block-for-facebook:hover{
+  opacity: 80%;
+}
+.fotoBlock__button:hover{
+  opacity: 80%;
+}
+.header-button button:hover{
+  opacity: 80%;
+}
+.header-menu__burger:hover{
+  opacity: 50%;
+}

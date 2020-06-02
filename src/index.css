@@ -1,3 +1,7 @@
 @import 'assets/css/index.css';
 @import 'elements/Header/header.css';
 @import 'elements/SectionCentre/sectionCentre.css';
+@import 'elements/SectionBigPicture/BigPicture.css';
+@import 'elements/Footer/footer.css';
+@import 'elements/Hover/hover.css';
+@import 'elements/Social-network/SocialNetwork.css';

@@ -2,7 +2,7 @@ import React from 'react';
 
 function SectionCentreFotoBlock() {
   return (
-    <div>
+    <div className="divforResponce">
       <div className="sectionCentreFotoBlock">
         <div className="sectionCentreFotoBlock__left">
 

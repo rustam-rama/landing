@@ -56,15 +56,25 @@
   }
 
                                       /* Header logo */
-.header {
+.header-picture{
   width: 100%;
   height: 1032px;
   background-image: url("../../assets/img/header.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* opacity: 60%; */
+  opacity: 60%;
+  position: absolute;
 }
+/* .header { */
+  /* width: 100%;
+  height: 1032px; */
+  /* background-image: url("../../assets/img/header.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  /* opacity: 60%; */
+/* } */
 .container {
   width: 1270px;
   margin: auto;
@@ -300,7 +310,10 @@
     padding-left: 50px;
     padding-top: 90px;
   }
-  .header{
+  .sectionCentre-title__wrap {
+    padding-top: 70px;
+  }
+  .header-picture{
     background-size: 172%;
     height: 957px;
   }
@@ -334,7 +347,7 @@
   }
 }
 @media(max-width: 835px){
-  .header{
+  .header-picture{
     height: 898px;
     background-size: 175%;
   }
@@ -381,8 +394,11 @@
   }
 }
 @media(max-width: 768px){
-  .header{
+  .header-picture{
     height: 720px;
+  }
+  .sectionCentre-title__wrap {
+    padding-top: 264px;
   }
   .header-cards__wrap{
     display: none;
@@ -401,9 +417,13 @@
     margin-top: 31px;
   }
 }
+
 @media(max-width: 570px){
-  .header{
+  .header-picture{
     height: 720px;
+  }
+  .sectionCentre-title__wrap {
+    padding-top: 236px;
   }
   .header__wrapper-logo_image {
     width: 255px;
@@ -414,11 +434,15 @@
   }
 }
 @media(max-width: 425px){
-  .header{
+  .header-picture{
     height: 720px;
     background-size: 155%;
   }
+  .sectionCentre-title__wrap {
+    margin-top: -10px;
+  }
   .header__wrapper-logo_image {
+    margin-top: -62px;
     width: 148px;
     height: 95px;
   }
@@ -426,11 +450,18 @@
     width: 100%;
     padding-top: 200px;
   }
+  .header-title{
+    margin-top: -25px;
+  }
   .header-title h1 {
+    width: 150px;
+    height: 100px;
+    line-height: 22px;
     margin-top: -215px;
     font-size: 20px;
+    text-align: center;
   }
   .header-button {
-    margin-top: -127px;
+    margin-top: -138px;
   }
 }

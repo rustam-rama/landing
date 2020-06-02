@@ -9,6 +9,7 @@ function Header() {
   
   return (
     <header className="header">
+      <div className="header-picture"></div>
       <div className="container">
         <div className="header__wrapper">
           <HeaderMenu />
