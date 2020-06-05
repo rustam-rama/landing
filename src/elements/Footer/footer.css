@@ -24,7 +24,7 @@
   color: #cacaca;
   text-indent: 11px;
 }
-.footer__butoon{
+.footer__buton{
   background-color: #00cfae;
   width: 135px;
   height: 44px;
@@ -35,6 +35,7 @@
   font-size: 16px;
   color: #fff;
   text-transform: uppercase;
+  cursor: pointer;
 }
 .footer__form{
   display: flex;
@@ -58,6 +59,9 @@
   font-weight: 700;
   text-transform: uppercase;
   color: #2f1946;
+}
+.hover{
+  cursor: pointer;
 }
 .footer-menu__unic-letter{
   font-size: 16px;

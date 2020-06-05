@@ -6,7 +6,7 @@ function FooterSearch() {
       <div className="footer-newsletter">Sign up for our newsletter</div>
       <form action="" className="footer__form">
         <input className="footer__email" type="text" placeholder="Email Address"/>
-        <button className="footer__butoon">Subscribe</button>
+        <button className="footer__buton">Subscribe</button>
       </form>
     </div>
   )

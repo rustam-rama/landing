@@ -60,6 +60,9 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.social-responce{
+  cursor: pointer;
+}
 @media (max-width: 1270px) {
   .social-network-wrapper {
     width: 37px;
